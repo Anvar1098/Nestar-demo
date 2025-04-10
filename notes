@@ -1,0 +1,22 @@
+Next Js da routing bolinadi ikkiga => APP routing & Pages routing
+APP routing => by default SSR da quradi! Shuning uchun (useClient) kerak boladi, agar Client tomoni kerak bosa
+APP routing bizga kerak emas chunki backend dan foydalanmiymiz!
+Agar NextJS da backend & frontend quradigan bosak bizga APP routing kerak boladi!
+
+NextJS afzalliklari :
+    1. Rendering => SSR & CSR hosil qilinishi 
+    SSR => og'ir mantiqlani buyerda tashkil qilganda, serverga yengillik beradi!
+    CSR (Client Side Server Rendering) => hooks, clicks and etc.. (yengil mantiqla)
+
+    2. SEO (Search Engine Optimization) mukammal tashkil qilish imkoni!
+        bu SSR da qurilgani uchun tez uqiladi
+
+    3. Routing system => Pages & APP
+
+    4. Layout  => turli header & footer boganda layout bilan wrap qilamiz!
+
+    5. Deploy mantiqlari automatic set up qilib beradi!
+
+    6. Cashing Architecture => Frontend Architecture! bu malumotlani cashlash (datani togridan togri cashga yozish)
+        cashga qachon data saqlash mumkin, qachonki frontenddan aniq va tiniq biz belgilagan malumot kelganda! (DTO & pipe validation)
+        chunki backend himoyalangan boladi!
