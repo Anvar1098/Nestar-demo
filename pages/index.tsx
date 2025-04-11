@@ -6,13 +6,19 @@ const Name: NextPage = () => {
   return (
     <Stack className={"home-page"}>
       <Stack>
+        <Container className="container">Trend Properties</Container>
+      </Stack>
+      <Stack>
         <Container className="container">Popular Properties</Container>
       </Stack>
       <Stack>
-        <Container className="container">Top Agents</Container>
+        <Container className="container">Advertisement</Container>
       </Stack>
       <Stack>
         <Container className="container">Top Properties</Container>
+      </Stack>
+      <Stack>
+        <Container className="container">Top Agents</Container>
       </Stack>
     </Stack>
   );
